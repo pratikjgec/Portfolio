@@ -13,8 +13,9 @@ body {
 }
 /* ============= Animation background ========= */
 .background {
-  background: linear-gradient(132deg, #FC415A, #7e0885, #ad1bb5);	<!-- #1c9e5d-->
-  background-size: 400% 400%;
+  background-image: url("background.jpg");
+  background-size: 100% 110%;
+  filter: brightness(70%);
   animation: Gradient 15s ease infinite;
   position: relative;
   height: 97vh;
@@ -105,17 +106,15 @@ nav ul li:hover{
 }
 /* Logo */
 .logo{
-  width: 35px;
+  width: 135px;
   height: 35px;
-  background: #EFEEF5;
   margin: 40px 63px;
   float: left;
-  transform: rotate(-30deg);
+  transform: rotate(0deg);
 }
 .logo span{
-  color: #591BC5;
-  font-size: 2em;
-  line-height: 1.4;
+  color: white;
+  font-size: 20px;
   padding-left: 5px;
   font-weight: bold;
 }
